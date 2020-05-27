@@ -1,0 +1,153 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  /** Navbar **/
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.4s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+  }
+  /** Bubble portfolio image **/
+  #header .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 150px;
+    border: 12px solid #2c2f3f;
+  }
+  /** Navbar name **/
+  #header .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 550;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+  }
+  /** Navbar name color **/
+  #header .profile h1 a, #header .profile h1 a:hover {
+    color: #fff;
+  }
+  /** Social media bubbles **/
+  #header .profile .social-links a {
+    font-size: 28px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 9px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    transition: 0.4s;
+  }
+  /** Color when hovering on social media **/
+  #header .profile .social-links a:hover {
+    background: #0b5577;
+    color: #fff;
+  }
+  /** Space between social media and links in navbar **/
+  .nav-menu {
+    padding-top: 20px;
+  }
+  /** Navbar bullet points **/
+  .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /** Navbar links **/
+  .nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #dddfe9;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 16px;
+  }
+  /** Navbar link icons **/
+  .nav-menu a i {
+    font-size: 25px;
+    padding-right: 12px;
+    color: #656777;
+  }
+  
+  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color: #fff;
+  }
+  
+  .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+    color: #1d95cc;
+  }
+  
+  /** First image of page **/
+  #firstImage {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/first-image.png") top center;
+    background-size: cover;
+  }
+  
+  #firstImage:before {
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  #firstImage .firstImage-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+  
+  #firstImage h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  
+  #firstImage h2 {
+    margin: 0 0 10px 0;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #fff;
+  }
+  
+  #firstImage p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #firstImage p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
