@@ -1,6 +1,6 @@
 import React from "react"
 import Typist from "react-typist"
-import Anime, {anime} from "react-anime"
+import Anime from "react-anime"
 
 function FirstImage() {
     return (
@@ -21,8 +21,17 @@ function FirstImage() {
                     loop={true}
                     delay={(el, index) => index * 240}
                     translateX='13rem'
-                    scale={[.75, .9]}>
-                    <div className="blue"/>
+                    scale={[1, 1]}>
+                    <div className="squareOne"/>
+                </Anime>
+                <Anime easing="easeOutElastic"
+                    duration={1000}
+                    direction="alternate"
+                    loop={true}
+                    delay={(el, index) => index * 240}
+                    translateX='13rem'
+                    scale={[1, 1]}>
+                    <div className="squareTwo"/>
                 </Anime>
                 </h2>
             </div>
