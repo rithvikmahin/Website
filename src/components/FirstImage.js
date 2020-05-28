@@ -1,7 +1,8 @@
 import React from "react"
 import Typist from "react-typist"
+import Anime, {anime} from "react-anime"
 
-function Hero() {
+function FirstImage() {
     return (
         <div>
             <section id="firstImage" className="d-flex flex-column justify-content-center align-items-center">
@@ -14,6 +15,15 @@ function Hero() {
                     Thank you for visiting my site!
                     <Typist.Backspace count={35} delay={300} />
                 </Typist>
+                <Anime easing="easeOutElastic"
+                    duration={1000}
+                    direction="alternate"
+                    loop={true}
+                    delay={(el, index) => index * 240}
+                    translateX='13rem'
+                    scale={[.75, .9]}>
+                    <div className="blue"/>
+                </Anime>
                 </h2>
             </div>
             </section>
@@ -21,4 +31,4 @@ function Hero() {
     )
 }
 
-export default Hero
+export default FirstImage

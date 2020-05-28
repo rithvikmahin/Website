@@ -151,3 +151,10 @@ body {
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
   }
+
+.blue {
+  background-color: #eaeaf1;
+  margin-top: 2rem;
+  width: 3rem;
+  height: 3rem;
+}
