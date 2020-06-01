@@ -13,12 +13,12 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 250px;
+    width: 300px;
     transition: all ease-in-out 0.5s;
     z-index: 9997;
     transition: all 0.4s;
     padding: 0 15px;
-    background: #040b14;
+    background: #000000;
     overflow-y: auto;
   }
   /** Bubble portfolio image **/
@@ -98,31 +98,38 @@ body {
   }
   
   /** First image of page **/
-  #firstImage {
+  #first-image {
     width: 100%;
     height: 100vh;
-    background: url("../images/first-image.jpeg") top center;
-    background-size: cover;
+    background: linear-gradient(to right, #000000, rgb(1, 12, 27));
+    z-index: -1;
+  }
+
+  /** Background animation **/
+  .stagger-visualizer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 17rem;
   }
   
-  #firstImage:before {
-    content: "";
-    background: rgba(5, 13, 24, 0.3);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+  .stagger-visualizer div {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: solid transparent;
+    margin-top: -100px
   }
   
-  #firstImage .firstImage-container {
+  #first-image .first-image-container {
     position: relative;
     z-index: 2;
     min-width: 300px;
   }
   
-  #firstImage h1 {
+  #first-image h1 {
     margin: 0 0 10px 0;
     font-size: 64px;
     font-weight: 700;
@@ -130,7 +137,7 @@ body {
     color: #fff;
   }
   
-  #firstImage h2 {
+  #first-image h2 {
     margin: 0 0 10px 0;
     font-size: 32px;
     font-weight: 600;
@@ -138,38 +145,71 @@ body {
     color: #fff;
   }
   
-  #firstImage p {
+  #first-image p {
     color: #fff;
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
   }
   
-  #firstImage p span {
+  #first-image p span {
     color: #fff;
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid #149ddd;
   }
 
-.squareOne {
-  background-color: #eaeaf1;
-  margin-top: 2rem;
-  width: 3rem;
-  left: 0.5;
-  right: 0.5;
-  opacity: 0.5;
-  height: 3rem;
+  .divider {
+    height: .5px;
+    background: #000;
+    background: -webkit-linear-gradient(left, rgb(255,255,255) 0%, rgb(50,50,50) 50%, rgb(255,255,255) 100%);
+  }
+  .divider.light {
+    background: #fff;
+    background: -webkit-linear-gradient(left, rgb(90,90,90) 0%, rgb(255,255,255) 50%, rgb(90,90,90) 100%);
+  }
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+  background: #000000;
 }
 
-
-.squareTwo {
-  background-color: #eaeaf1;
-  margin-top: 2rem;
-  width: 3rem;
-  left: 0.5;
-  right: 0.5;
-  opacity: 0.5;
-  height: 3rem;
+.section-title {
+  padding-bottom: 15px;
+}
+/** About Me title **/
+.section-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
 }
 
+.about .content h3 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  color: #15abb6;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  color: #149ddd;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #e7ae11;
+}

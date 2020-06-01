@@ -9,13 +9,15 @@ import './template/assets/img/profile-img.jpg'
 import './assets/css/boxicons/css/boxicons.min.css'
 
 import Navbar from "./components/Navbar"
-import FirstImage from "./components/FirstImage.js"
+import Animation from "./components/FirstImage"
+import About from "./components/About"
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div>
   <Navbar />
-  <FirstImage />
+  <Animation />
+  <About />
   </div>,
   document.getElementById('root')
 );
