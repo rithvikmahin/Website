@@ -5,7 +5,6 @@ import './assets/css/layout.css';
 
 import './assets/css/bootstrap/css/bootstrap.min.css'
 import './assets/css/icofont/icofont.min.css'
-import './template/assets/img/profile-img.jpg'
 import './assets/css/boxicons/css/boxicons.min.css'
 
 import Navbar from "./components/Navbar"
