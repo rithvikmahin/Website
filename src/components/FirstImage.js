@@ -87,10 +87,10 @@ export default class Animation extends Component {
                 <h1>Rithvik Mahindra</h1>
                 <h2>
                 <Typist> 
-                    I am a developer!
-                    <Typist.Backspace count={17} delay={300} />
-                    Thank you for visiting my site!
-                    <Typist.Backspace count={35} delay={300} />
+                    This site is under construction!
+                    <Typist.Backspace count={32} delay={500} />
+                    Thank you for visiting!
+                    <Typist.Backspace count={35} delay={500} />
                 </Typist>
                 </h2>
                 </div>
