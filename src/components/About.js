@@ -20,7 +20,9 @@ function About() {
                 </Typist>
                 </span>
               </span>
-              <AboutList />
+              
+                <AboutList />
+               
             </div>
           </div>
         </div>
