@@ -19,7 +19,7 @@ body {
     z-index: 9997;
     transition: all 0.4s;
     padding: 0 15px;
-    background: transparent;
+    background: #000000;
     overflow-y: auto;
   }
   /** Bubble portfolio image **/
@@ -146,6 +146,7 @@ body {
 
   /** First image of page **/
   #first-image {
+    display: flex;
     width: 100%;
     height: 65vh;
     background: linear-gradient(to right, #000000, rgb(1, 12, 27));
@@ -287,5 +288,11 @@ section {
 .about .code-styling-2 {
   color: #a3f9ff;
   /** 24c776 **/
+}
+
+@media (min-width: 864px) {
+  .about .content ul li {
+    padding-left: 20%;
+  }
 }
 
