@@ -75,11 +75,6 @@ export default class Animation extends Component {
     }
 
     componentDidMount() {
-        const script = document.createElement("script");
-        script.src = "../assets/javascript/script.js";
-        script.async = true;
-        script.onload = () => this.scriptLoaded();
-        document.body.appendChild(script);
         this.Animation()
     }
 
