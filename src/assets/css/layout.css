@@ -14,12 +14,12 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 300px;
+    width: 21vw;
     transition: all ease-in-out 0.5s;
     z-index: 9997;
     transition: all 0.4s;
     padding: 0 15px;
-    background: #000000;
+    background: transparent;
     overflow-y: auto;
   }
   /** Bubble portfolio image **/
