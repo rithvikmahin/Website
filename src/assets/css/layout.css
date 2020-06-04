@@ -145,7 +145,7 @@ body {
   /** First image of page **/
   #first-image {
     width: 100%;
-    height: 100vh;
+    height: 65vh;
     background: linear-gradient(to right, #000000, rgb(1, 12, 27));
     z-index: -1;
   }
@@ -164,7 +164,7 @@ body {
     width: 1rem;
     height: 1rem;
     border: 1px solid rgb(255, 255, 255);
-    background-color: solid transparent;
+    background-color: solid white;
     margin-top: -100px
   }
   
@@ -284,5 +284,10 @@ section {
 
 .about .code-styling-2 {
   color: #a3f9ff;
+  /** 24c776 **/
+}
+
+.about .code-styling-3 {
+  color: #149ddd;
   /** 24c776 **/
 }

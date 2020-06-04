@@ -16,7 +16,7 @@ function About() {
                 <span className="text-nowrap">
                 <Typist>
                 <Typist.Delay ms = {1000} />
-                  <h3>&#123;<span className="code-styling-2">"Education"</span> : <span className="code-styling-1">"The University of Illinois at Urbana-Champaign"</span>&#125;</h3>
+                  <h3>&#123;<span className="code-styling-2">"Education"</span> : <span className="code-styling-1">"The University of Illinois at Urbana-Champaign"</span>&#125; </h3>
                 </Typist>
                 </span>
               </span>
