@@ -75,6 +75,11 @@ export default class Animation extends Component {
     }
 
     componentDidMount() {
+        const script = document.createElement("script");
+        script.src = "../assets/javascript/script.js";
+        script.async = true;
+        script.onload = () => this.scriptLoaded();
+        document.body.appendChild(script);
         this.Animation()
     }
 
@@ -82,7 +87,7 @@ export default class Animation extends Component {
         return (
             <div>
                 <section id="first-image" className="d-flex flex-column justify-content-center align-items-center">
-                <div class="stagger-visualizer"></div>
+                <div className="stagger-visualizer"></div>
                 <div className="first-image-container">
                 <h1>Rithvik Mahindra</h1>
                 <h2>
