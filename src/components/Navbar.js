@@ -18,7 +18,9 @@ function Navbar() {
             <ul>
               <li className="active"><a href="index.html"><i className="bx bx-home" /> <span>Home</span></a></li>
               <li><a href="#about"><i className="bx bx-user" /> <span>About</span></a></li>
-              <li><a href="#portfolio"><i className="bx bx-book-content" /> Portfolio</a></li>
+              <li><a href="#experiences"><i className="bx bx-book-content" /> Experiences</a></li>
+              <li><a href="#projects"><i className="bx bx-book-content" /> Projects</a></li>
+              <li><a href="#skills"><i className="bx bx-book-content" /> Skills</a></li>
               <li><a href="#contact"><i className="bx bx-envelope" /> Contact</a></li>
             </ul>
           </nav>

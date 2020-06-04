@@ -167,8 +167,8 @@ body {
     width: 1rem;
     height: 1rem;
     border: 1px solid rgb(255, 255, 255);
-    background-color: solid white;
-    margin-top: -100px
+    background-color: solid #ffffff;
+    margin-top: -90px
   }
   
   #first-image .first-image-container {
@@ -226,11 +226,13 @@ body {
   }
 
   .divider {
-    height: .5px;
+    display: flex;
+    height: 1px;
     background: #000;
-    background: -webkit-linear-gradient(left, rgb(255,255,255) 0%, rgb(50,50,50) 50%, rgb(255,255,255) 100%);
+    background: -webkit-linear-gradient(left, rgb(255,255,255) 0%, rgb(50,50,50) 45%, rgb(50,50,50) 85%, rgb(255,255,255) 100%);
   }
   .divider.light {
+    display: flex;
     background: #fff;
     background: -webkit-linear-gradient(left, rgb(90,90,90) 0%, rgb(255,255,255) 50%, rgb(90,90,90) 100%);
   }
@@ -246,6 +248,7 @@ section {
 }
 /** About Me title **/
 .section-title h2 {
+  font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -255,6 +258,7 @@ section {
 }
 
 .about .content h3 {
+  font-family: 'Ubuntu', sans-serif;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -269,6 +273,7 @@ section {
 }
 
 .about .content ul li {
+  font-family: 'Ubuntu', sans-serif;
   color: #149ddd;
   font-size: 18px;
   padding-bottom: 10px;
@@ -288,6 +293,12 @@ section {
 .about .code-styling-2 {
   color: #a3f9ff;
   /** 24c776 **/
+}
+
+@media (max-width: 768px) {
+  .about .content h3 {
+    font-size: 25px;
+  }
 }
 
 @media (min-width: 864px) {
