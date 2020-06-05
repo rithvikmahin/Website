@@ -14,12 +14,12 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 21vw;
+    width: 13vw;
     transition: all ease-in-out 0.5s;
     z-index: 9997;
     transition: all 0.4s;
     padding: 0 15px;
-    background: #000000;
+    background: #010101;
     overflow-y: auto;
   }
   /** Bubble portfolio image **/
@@ -167,7 +167,7 @@ body {
     width: 1rem;
     height: 1rem;
     border: 1px solid rgb(255, 255, 255);
-    background-color: solid #ffffff;
+    background-color: transparent;
     margin-top: -90px
   }
   
@@ -297,7 +297,20 @@ section {
 
 @media (max-width: 768px) {
   .about .content h3 {
-    font-size: 25px;
+    font-size: 18px;
+    white-space: normal;
+  }
+
+  .about .content ul {
+    font-size: 12px;
+  }
+
+  section {
+    font-size: 12px;
+  }
+
+  .about .content ul i {
+    font-size: 0px;
   }
 }
 
