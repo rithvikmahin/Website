@@ -14,9 +14,9 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 13vw;
+    width: 14vw;
     transition: all ease-in-out 0.5s;
-    z-index: 9997;
+    z-index: 0;
     transition: all 0.4s;
     padding: 0 15px;
     background: #010101;
@@ -31,7 +31,7 @@ body {
   }
   /** Navbar name **/
   #header .profile h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
     font-weight: 550;
@@ -133,6 +133,7 @@ body {
   }
   
   .mobile-nav-active {
+    z-index: 9999;
     overflow: hidden;
   }
   
@@ -318,5 +319,36 @@ section {
   .about .content ul li {
     padding-left: 24%;
   }
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  background-color: #149ddd;
 }
 

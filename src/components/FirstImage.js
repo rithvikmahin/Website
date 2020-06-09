@@ -3,6 +3,7 @@ import Typist from "react-typist"
 import anime from "animejs"
 
 
+
 export default class Animation extends Component {
 
     Animation() {
