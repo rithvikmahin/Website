@@ -19,10 +19,9 @@ ReactDOM.render(
     <div>
     <Navigation />
     </div>
-    <div style={{marginLeft : "10%"}} id="main-body">
+    <div style={{marginLeft : "10em"}} id="main-body">
       <Animation />
       <About />
-      <SkillList />
     </div>
   </div>,
   document.getElementById('root')
