@@ -14,9 +14,9 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 14vw;
+    width: 250px;
     transition: all ease-in-out 0.5s;
-    z-index: 0;
+    z-index: 9000;
     transition: all 0.4s;
     padding: 0 15px;
     background: #010101;
@@ -75,6 +75,9 @@ body {
     #main {
       margin-left: 0;
     }
+    #main-body {
+      margin-left: 0 !important;
+    }
   }
   
   /** Space between social media and links in navbar **/
@@ -117,7 +120,7 @@ body {
     position: fixed;
     right: 15px;
     top: 15px;
-    z-index: 9998;
+    z-index: 9000;
     border: 0;
     background: none;
     font-size: 24px;
@@ -308,6 +311,7 @@ section {
 
   section {
     font-size: 12px;
+    width: 100%;
   }
 
   .about .content ul i {
