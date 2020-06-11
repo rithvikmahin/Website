@@ -10,6 +10,7 @@ import './assets/css/boxicons/css/boxicons.min.css'
 import Navbar from "./components/Navbar"
 import Animation from "./components/FirstImage"
 import About from "./components/About"
+import WorkExperience from "./components/WorkExperience"
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
