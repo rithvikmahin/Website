@@ -7,17 +7,22 @@ import './assets/css/bootstrap/css/bootstrap.min.css'
 import './assets/css/icofont/icofont.min.css'
 import './assets/css/boxicons/css/boxicons.min.css'
 
-import Navbar from "./components/Navbar"
+import Navigation from "./components/Navbar"
 import Animation from "./components/FirstImage"
 import About from "./components/About"
 import WorkExperience from "./components/WorkExperience"
+import SkillList from "./components/Skills"
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div>
-  <Navbar />
-  <Animation />
-  <About />
+    <div>
+    <Navigation />
+    </div>
+    <div style={{marginLeft : "10em"}} id="main-body">
+      <Animation />
+      <About />
+    </div>
   </div>,
   document.getElementById('root')
 );
