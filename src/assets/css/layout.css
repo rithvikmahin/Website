@@ -110,7 +110,17 @@ body {
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
     body {
-      margin-left: 0
+      margin-left: 0;
+    }
+
+    #header {
+      left: -300px;
+    }
+
+    .mobile-nav-active {
+      z-index: 9999;
+      overflow: hidden;
+      margin-left: 15em !important;
     }
     
   }
@@ -124,13 +134,16 @@ body {
     body {
       margin-left: 0;
     }
-    
-  }
 
-  @media (min-width: 1200px) and (max-width: 1500px) {
-    #main-body {
-      margin-left : 10em;
+    #header {
+      left: -300px;
     }
+
+    .mobile-nav-active {
+      z-index: 9999;
+      overflow: hidden;
+    }
+    
   }
   
   
