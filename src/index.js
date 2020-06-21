@@ -11,17 +11,18 @@ import Navigation from "./components/Navbar"
 import Animation from "./components/FirstImage"
 import About from "./components/About"
 import WorkExperience from "./components/WorkExperience"
-import SkillList from "./components/Skills"
+import Skills from "./components/Skills"
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div>
     <div>
-    <Navigation />
+      <Navigation />
     </div>
-    <div style={{marginLeft : "10em"}} id="main-body">
+    <div id="main-body" style={{marginLeft : "10em"}}>
       <Animation />
       <About />
+      <Skills />
     </div>
   </div>,
   document.getElementById('root')

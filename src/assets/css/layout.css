@@ -75,10 +75,65 @@ body {
     #main {
       margin-left: 0;
     }
+  }
+
+  /* 
+  ##Device = Desktops, Laptops
+  ##Screen = 1025px and above
+*/
+
+  @media (min-width: 1025px) {
+    
+    body {
+      margin-left: 20%;
+    }
+    
+  }
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    body {
+      margin-left: 0;
+    }
+    
+  }
+
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    body {
+      margin-left: 0
+    }
+    
+  }
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape), Mobiles (Portrait)
+    ##Screen = B/w 320px to 767px
+  */
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    body {
+      margin-left: 0;
+    }
+    
+  }
+
+  @media (min-width: 1200px) and (max-width: 1500px) {
     #main-body {
-      margin-left: 0 !important;
+      margin-left : 10em;
     }
   }
+  
   
   /** Space between social media and links in navbar **/
   .nav-menu {
