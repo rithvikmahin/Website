@@ -1,6 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
+    background-color: black !important;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -43,6 +44,7 @@ body {
   #header .profile h1 a, #header .profile h1 a:hover {
     color: #fff;
   }
+
   /** Social media bubbles **/
   #header .profile .social-links a {
     font-size: 28px;
@@ -63,20 +65,7 @@ body {
     background: #0b5577;
     color: #fff;
   }
-
-  #main {
-    margin-left: 300px;
-  }
   
-  @media (max-width: 1199px) {
-    #header {
-      left: -300px;
-    }
-    #main {
-      margin-left: 0;
-    }
-  }
-
   /* 
   ##Device = Desktops, Laptops
   ##Screen = 1025px and above
@@ -85,7 +74,7 @@ body {
   @media (min-width: 1025px) {
     
     body {
-      margin-left: 20%;
+      margin-left: 15em !important;
     }
     
   }
@@ -99,6 +88,16 @@ body {
     
     body {
       margin-left: 0;
+    }
+
+    #header {
+      left: -300px;
+    }
+
+    .mobile-nav-active {
+      z-index: 9999;
+      overflow: hidden;
+      margin-left: 15em !important;
     }
     
   }
@@ -188,11 +187,6 @@ body {
   
   .mobile-nav-toggle i {
     color: #149ddd;
-  }
-  
-  .mobile-nav-active {
-    z-index: 9999;
-    overflow: hidden;
   }
   
   .mobile-nav-active #header {

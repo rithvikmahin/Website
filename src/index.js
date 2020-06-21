@@ -19,7 +19,7 @@ ReactDOM.render(
     <div>
       <Navigation />
     </div>
-    <div id="main-body" style={{marginLeft : "10em"}}>
+    <div>
       <Animation />
       <About />
       <Skills />
