@@ -44,7 +44,7 @@ export default class SkillList extends Component {
 
         return (
             <div className="section-skills">
-                <h2 className="skills">
+                <h2 className="skills" id="skills">
                     Skills
                 </h2>
                 <div className="skillbars" style={{textAlign: "center"}}>
