@@ -1,61 +1,58 @@
 import React, {Component} from "react"
-import $ from "jquery"
+import SkillBar from "react-skillbars"
 
 export default class SkillList extends Component {
-
-    
-
     render() {
+        const languages = [
+            {type: "Python", level: 95}, 
+            {type: "JavaScript", level: 90}, 
+            {type: "Java", level: 90},
+            {type: "C++", level: 90}
+    ];
+
+        const colors = {
+            "bar": {
+              "hue": 200,
+              "saturation": 50,
+              "level": {
+                "minimum": 30,
+                "maximum": 70
+              }
+            },
+            "title": {
+              "text": {
+                "hue": 45,
+                "saturation": {
+                  "minimum": 30,
+                  "maximum": 70
+                },
+                "level": 50
+              },
+              "background": {
+                "hue": 200,
+                "saturation": {
+                  "minimum": 50,
+                  "maximum": 70
+                },
+                "level": {
+                  "minimum": 30,
+                  "maximum": 70
+                }
+              }
+            }
+          }
+
         return (
-            <section id="skills" className="skills section-bg">
-                <div className="container">
-                <div className="section-title">
-                    <h2 className="h2-padding">Skills</h2>
-                </div>
-                <div className="row skills-content">
-                    <div className="col-lg-6">
-                    <div className="progress">
-                        <span className="skill">JavaScript <i className="val">100%</i></span>
-                        <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                    </div>
-                    <div className="progress">
-                        <span className="skill">Python <i className="val">90%</i></span>
-                        <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                    </div>
-                    <div className="progress">
-                        <span className="skill">Java <i className="val">75%</i></span>
-                        <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                    </div>
-                    </div>
-                    <div className="col-lg-6">
-                    <div className="progress">
-                        <span className="skill">C++ <i className="val">80%</i></span>
-                        <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                    </div>
-                    <div className="progress">
-                        <span className="skill">SQL/CMS <i className="val">90%</i></span>
-                        <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                    </div>
-                    <div className="progress">
-                        <span className="skill">HTML <i className="val">55%</i></span>
-                        <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow={55} aria-valuemin={0} aria-valuemax={100} />
-                        </div>
-                    </div>
+            <div className="section-skills">
+                <h2 className="skills">
+                    Skills
+                </h2>
+                <div className="skillbars" style={{textAlign: "center"}}>
+                    <div style={{width: "60vw"}}>
+                        <SkillBar skills={languages} colors={colors}/>
                     </div>
                 </div>
-                </div>
-            </section>
+            </div>
         )
     }
 }

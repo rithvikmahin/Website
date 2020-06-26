@@ -1,6 +1,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
+    background-color: black !important;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -43,6 +44,7 @@ body {
   #header .profile h1 a, #header .profile h1 a:hover {
     color: #fff;
   }
+
   /** Social media bubbles **/
   #header .profile .social-links a {
     font-size: 28px;
@@ -63,22 +65,87 @@ body {
     background: #0b5577;
     color: #fff;
   }
-
-  #main {
-    margin-left: 300px;
-  }
   
-  @media (max-width: 1199px) {
+  /* 
+  ##Device = Desktops, Laptops
+  ##Screen = 1025px and above
+*/
+
+  @media (min-width: 1025px) {
+    
+    body {
+      margin-left: 15em !important;
+    }
+    
+  }
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    body {
+      margin-left: 0;
+    }
+
     #header {
       left: -300px;
     }
-    #main {
+
+    .mobile-nav-active {
+      z-index: 9999;
+      overflow: hidden;
+      margin-left: 15em !important;
+    }
+    
+  }
+
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    body {
       margin-left: 0;
     }
-    #main-body {
-      margin-left: 0 !important;
+
+    #header {
+      left: -300px;
     }
+
+    .mobile-nav-active {
+      z-index: 9999;
+      overflow: hidden;
+      margin-left: 15em !important;
+    }
+    
   }
+
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape), Mobiles (Portrait)
+    ##Screen = B/w 320px to 767px
+  */
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    body {
+      margin-left: 0;
+    }
+
+    #header {
+      left: -300px;
+    }
+
+    .mobile-nav-active {
+      z-index: 9999;
+      overflow: hidden;
+    }
+    
+  }
+  
   
   /** Space between social media and links in navbar **/
   .nav-menu {
@@ -133,11 +200,6 @@ body {
   
   .mobile-nav-toggle i {
     color: #149ddd;
-  }
-  
-  .mobile-nav-active {
-    z-index: 9999;
-    overflow: hidden;
   }
   
   .mobile-nav-active #header {
@@ -325,33 +387,42 @@ section {
   }
 }
 
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
+.section-skills h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  color: #e7ae11;
 }
 
-.skills .progress .skill {
-  padding: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #ffffff;
+.skills h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  color: #e7ae11;
 }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+.skillbars {
+  padding-left: 13%;
 }
 
-.skills .progress-bar-wrap {
-  background: #dce8f8;
+.skillbar-title span {
+  font-family: 'Ubuntu', sans-serif;
+  color: #000000;
 }
 
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  background-color: #149ddd;
+.skillbar-percent {
+  font-family: 'Ubuntu', sans-serif !important;
+  color: black !important;
+  font-size: 14px !important;
+  font-weight: bold;
 }
+
+
+
 
