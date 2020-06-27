@@ -6,13 +6,15 @@ export default class SkillList extends Component {
         const languages = [
             {type: "Python", level: 95}, 
             {type: "JavaScript", level: 90}, 
-            {type: "Java", level: 90},
-            {type: "C++", level: 90}
+            {type: "Java", level: 85},
+            {type: "C++", level: 85},
+            {type: "SQL", level: 85},
+            {type: "HTML/CSS", level: 80},
     ];
 
         const colors = {
             "bar": {
-              "hue": 200,
+              "hue": 150,
               "saturation": 50,
               "level": {
                 "minimum": 30,
@@ -29,7 +31,7 @@ export default class SkillList extends Component {
                 "level": 50
               },
               "background": {
-                "hue": 200,
+                "hue": 150,
                 "saturation": {
                   "minimum": 50,
                   "maximum": 70
