@@ -320,7 +320,8 @@ section {
   margin-bottom: 20px;
   text-align: center;
   position: relative;
-  color: #149ddd;
+  /**color: #149ddd;**/
+  color: white;
 }
 
 .about .content h3 {
@@ -330,7 +331,8 @@ section {
   position: relative;
   font-weight: 700;
   font-size: 24px;
-  color: #149ddd;
+  /**color: #149ddd;**/
+  color: #09c923;
 }
 
 .about .content ul {
@@ -340,25 +342,58 @@ section {
 
 .about .content ul li {
   font-family: 'Ubuntu', sans-serif;
-  color: #149ddd;
+  /**color: #149ddd;**/
+  color: #09c923;
   font-size: 18px;
   padding-bottom: 10px;
+  text-shadow: 0 0 5px #118d21;
 }
 
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #e7ae11;
+  /**color: #e7ae11;**/
+  color: #09c923;
+  text-shadow: 0 0 5px #118d21;
 }
 
 /** Color for typed-out text **/
 .about .code-styling-1 {
-  color: #e7ae11;
+  /**color: #e7ae11;**/
+  text-shadow: 0 0 5px #118d21;
 }
 
 .about .code-styling-2 {
-  color: #a3f9ff;
-  /** 24c776 **/
+  /**color: #a3f9ff;**/
+  text-shadow: 0 0 5px #118d21;
+}
+
+.terminal {
+  border-radius: 3px;
+  background: #222;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+  
+.terminal::before {
+  content: ' ';
+  display: block;
+  height: 6vh;
+  background: #4d4d4d;
+}
+
+.terminal::after {
+  content: '. . .';
+  position: absolute;
+  left: 2%;
+  top: -3px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 96px;
+  color: #fff;
+  line-height: 0;
+  letter-spacing: -12px;
 }
 
 @media (max-width: 768px) {
@@ -383,7 +418,7 @@ section {
 
 @media (min-width: 864px) {
   .about .content ul li {
-    padding-left: 24%;
+    padding-left: 6%;
   }
 }
 

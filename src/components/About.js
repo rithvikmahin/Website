@@ -10,7 +10,7 @@ function About() {
           <div className="section-title">
             <h2>About Me</h2>
           </div>
-          <div>
+          <div className="terminal">
             <div className="col-lg-16 pt-8 pt-lg-0 content">
               <span className = "text-center">
                 <span>
@@ -25,8 +25,7 @@ function About() {
                
             </div>
           </div>
-        </div>
-        
+          </div>
         </section>
       </div>
     )
