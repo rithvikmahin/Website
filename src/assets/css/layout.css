@@ -348,7 +348,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #118d21;
+  color: #e7ae11;
 }
 
 /** Color for typed-out text **/
@@ -423,6 +423,20 @@ section {
   font-weight: bold;
 }
 
+.skillbar-width {
+  width: 30vw;
+  max-width: 30vw;
+}
+
+@media (max-width: 999px) {
+  .skillbars {
+    padding-left: 8%;
+  }
+  .skillbar-width {
+    width: 85vw !important;
+    max-width: 85vw !important;
+  }
+}
 
 
 
