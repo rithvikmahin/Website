@@ -3,14 +3,17 @@ import SkillBar from "react-skillbars"
 
 export default class SkillList extends Component {
     render() {
-        const languages = [
+        const languagesLeft = [
             {type: "Python", level: 95}, 
             {type: "JavaScript", level: 90}, 
             {type: "Java", level: 85},
-            {type: "C++", level: 85},
-            {type: "SQL", level: 85},
-            {type: "HTML/CSS", level: 80},
     ];
+
+    const languagesRight = [
+      {type: "C++", level: 85},
+      {type: "SQL", level: 85},
+      {type: "HTML/CSS", level: 80},
+];
 
         const colors = {
             "bar": {
@@ -44,17 +47,32 @@ export default class SkillList extends Component {
             }
           }
 
-        return (
-            <div className="section-skills">
-                <h2 className="skills" id="skills">
-                    Skills
-                </h2>
-                <div className="skillbars" style={{textAlign: "center"}}>
-                    <div style={{width: "60vw"}}>
-                        <SkillBar skills={languages} colors={colors}/>
-                    </div>
+        return (  
+        <div>
+          <div className="section-skills">
+            <h2 className="skills">
+              Skills
+            </h2>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="skillbars" style={{textAlign: "center"}}>
+                <div className="skillbar-width">
+                    <SkillBar skills={languagesLeft} colors={colors}/>
                 </div>
+              </div>
             </div>
+                    
+            <div className="col-lg-6">
+              <div className="skillbars" style={{textAlign: "center"}}>
+                <div className="skillbar-width">
+                    <SkillBar skills={languagesRight} colors={colors}/>
+                </div>
+              </div>
+          </div>
+        </div>   
+      </div>
         )
     }
 }
