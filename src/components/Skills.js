@@ -7,12 +7,14 @@ export default class SkillList extends Component {
             {type: "Python", level: 95}, 
             {type: "JavaScript", level: 90}, 
             {type: "Java", level: 85},
+            {type: "Linux", level: 80},
     ];
 
     const languagesRight = [
       {type: "C++", level: 85},
       {type: "SQL", level: 85},
       {type: "HTML/CSS", level: 80},
+      {type: "C", level: 80},
 ];
 
         const colors = {
