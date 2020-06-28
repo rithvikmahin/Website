@@ -321,7 +321,8 @@ section {
   text-align: center;
   position: relative;
   /**color: #149ddd;**/
-  color: white;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
 }
 
 .about .content h3 {
@@ -342,7 +343,6 @@ section {
 
 .about .content ul li {
   font-family: 'Ubuntu', sans-serif;
-  /**color: #149ddd;**/
   color: #09c923;
   font-size: 18px;
   padding-bottom: 10px;
@@ -352,19 +352,16 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  /**color: #e7ae11;**/
   color: #09c923;
   text-shadow: 0 0 5px #118d21;
 }
 
 /** Color for typed-out text **/
 .about .code-styling-1 {
-  /**color: #e7ae11;**/
   text-shadow: 0 0 5px #118d21;
 }
 
 .about .code-styling-2 {
-  /**color: #a3f9ff;**/
   text-shadow: 0 0 5px #118d21;
 }
 
@@ -419,6 +416,7 @@ section {
 @media (min-width: 864px) {
   .about .content ul li {
     padding-left: 6%;
+    padding-right: 4%;
   }
 }
 
@@ -429,7 +427,8 @@ section {
   margin-bottom: 20px;
   text-align: center;
   position: relative;
-  color: #118d21;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
 }
 
 .skills h2 {
@@ -449,11 +448,13 @@ section {
 .skillbar-title span {
   font-family: 'Ubuntu', sans-serif;
   color: #000000;
+  text-shadow: 0 0 15px #000000;
 }
 
 .skillbar-percent {
   font-family: 'Ubuntu', sans-serif !important;
   color: black !important;
+ 
   font-size: 14px !important;
   font-weight: bold;
 }
