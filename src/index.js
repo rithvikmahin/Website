@@ -22,6 +22,7 @@ ReactDOM.render(
     <div>
       <Animation />
       <About />
+      <WorkExperience />
       <Skills />
     </div>
   </div>,

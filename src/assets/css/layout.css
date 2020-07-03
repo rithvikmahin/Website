@@ -320,7 +320,6 @@ section {
   margin-bottom: 20px;
   text-align: center;
   position: relative;
-  /**color: #149ddd;**/
   color: #fff;
   text-shadow: 0 0 5px #fff;
 }
@@ -332,7 +331,6 @@ section {
   position: relative;
   font-weight: 700;
   font-size: 24px;
-  /**color: #149ddd;**/
   color: #09c923;
 }
 
@@ -411,6 +409,12 @@ section {
   .about .content ul i {
     font-size: 0px;
   }
+
+  .terminal-wrapping {
+    font-size: 18px;
+    white-space: normal !important;
+  }
+  
 }
 
 @media (min-width: 864px) {
@@ -472,6 +476,56 @@ section {
     width: 85vw !important;
     max-width: 85vw !important;
   }
+}
+
+.work-terminal {
+  border-radius: 3px;
+  background: rgb(48, 10, 36);
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+  
+.work-terminal::before {
+  content: ' ';
+  display: block;
+  height: 6vh;
+  background: #242424;
+    
+}
+
+.work-terminal::after {
+  content: '. . .';
+  position: absolute;
+  left: 2%;
+  top: -3px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 96px;
+  color: #fff;
+  line-height: 0;
+  letter-spacing: -12px;
+}
+
+.section-work h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+
+.work .content ul li {
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding-bottom: 10px;
+  text-shadow: 0 0 5px #ffffff;
+  list-style: none;
 }
 
 
