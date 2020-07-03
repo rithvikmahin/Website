@@ -49,7 +49,7 @@ export class IIMB extends Component {
             <span className = "text-nowrap">
               <ul>
                 <li><Typist><Typist.Delay ms = {1500} /><strong><span className="terminal-wrapping">$ Loading... <Typist.Backspace count={11} delay={500} />Indian Institute of Management </span></strong></Typist></li>
-                <li><strong><span className="terminal-wrapping">$ Data Science Intern under SpeakUp </span></strong> </li>
+                <li><strong><span className="terminal-wrapping">$ Data Science Intern </span></strong> </li>
                 <li><strong><span className="terminal-wrapping">$ May 2018 - July 2018 | Bangalore, India </span></strong> </li>
               </ul>
             </span>
@@ -60,6 +60,44 @@ export class IIMB extends Component {
 }
 
 export class Visa extends Component {
+  render() {
+    return (
+        <div className="row">
+
+          <div className="col-lg-6">
+            <span className = "text-nowrap">
+              <ul>
+                <li><Typist><Typist.Delay ms = {1500} /><strong><span className="terminal-wrapping">$ Loading... <Typist.Backspace count={11} delay={500} />Visa</span></strong></Typist></li>
+                <li><strong><span className="terminal-wrapping">$ Software Engineering Intern </span></strong> </li>
+                <li><strong><span className="terminal-wrapping">$ February 2018 - July 2018 | Bangalore, India </span></strong> </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+    )
+  }
+}
+
+export class Collagro extends Component {
+  render() {
+    return (
+        <div className="row">
+
+          <div className="col-lg-6">
+            <span className = "text-nowrap">
+              <ul>
+                <li><Typist><Typist.Delay ms = {1500} /><strong><span className="terminal-wrapping">$ Loading... <Typist.Backspace count={11} delay={500} />Collagro</span></strong></Typist></li>
+                <li><strong><span className="terminal-wrapping">$ Data Science Intern </span></strong> </li>
+                <li><strong><span className="terminal-wrapping">$ February 2018 - July 2018 | Bangalore, India </span></strong> </li>
+              </ul>
+            </span>
+          </div>
+        </div>
+    )
+  }
+}
+
+export class Cisco extends Component {
   render() {
     return (
         <div className="row">
