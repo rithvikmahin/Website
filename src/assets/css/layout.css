@@ -409,6 +409,7 @@ section {
   .about .content ul i {
     font-size: 0px;
   }
+  
 }
 
 @media (min-width: 864px) {
@@ -479,7 +480,7 @@ section {
   overflow: hidden;
   position: relative;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
 }
   
 .work-terminal::before {
@@ -513,16 +514,13 @@ section {
   text-shadow: 0 0 5px #fff;
 }
 
-.work .terminal-styling {
-  text-shadow: 0 0 5px #ffffff;
-}
-
 .work .content ul li {
   font-family: 'Ubuntu', sans-serif;
   color: #ffffff;
   font-size: 18px;
   padding-bottom: 10px;
   text-shadow: 0 0 5px #ffffff;
+  list-style: none;
 }
 
 
