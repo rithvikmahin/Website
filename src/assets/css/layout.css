@@ -409,6 +409,11 @@ section {
   .about .content ul i {
     font-size: 0px;
   }
+
+  .terminal-wrapping {
+    font-size: 18px;
+    white-space: normal !important;
+  }
   
 }
 

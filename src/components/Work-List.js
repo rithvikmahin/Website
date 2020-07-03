@@ -29,9 +29,9 @@ export class CS125 extends Component {
             <div className="col-lg-6">
               <span className = "text-nowrap">
                 <ul>
-                  <li><Typist><Typist.Delay ms = {1500} /><strong>$ Loading... <Typist.Backspace count={11} delay={500} />CS 125 - Introduction to Computer Science</strong></Typist></li>
+                  <li><Typist><Typist.Delay ms = {1500} /><strong><span className="terminal-wrapping">$ Loading... <Typist.Backspace count={11} delay={500} />CS 125 - Introduction to Computer Science</span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ Course Developer for the class CS 125 </span></strong> </li>
-                  <li><strong>$ February 2020 - Ongoing | Champaign </strong> </li>
+                  <li><strong><span className="terminal-wrapping">$ February 2020 - Ongoing | Champaign </span></strong> </li>
                 </ul>
               </span>
             </div>
