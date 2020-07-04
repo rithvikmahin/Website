@@ -423,8 +423,8 @@ section {
 }
 
 .terminal-wrapping-title {
-  color: #fcc100;
-  text-shadow: 0 0 5px #fcc100;
+  color: #2CB8FC;
+  text-shadow: 0 0 20px #2CB8FC !important;
   font-size: 20px;
 }
 
@@ -535,7 +535,7 @@ section {
   color: #ffffff;
   font-size: 18px;
   padding-bottom: 10px;
-  text-shadow: 0 0 5px #ffffff;
+  text-shadow: 0 0 8px #ffffff;
   list-style: none;
 }
 
