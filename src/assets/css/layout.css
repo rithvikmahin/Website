@@ -332,8 +332,8 @@ section {
   position: relative;
   font-weight: 700;
   font-size: 24px;
-  color: #2CB8FC;
-  text-shadow: #2CB8FC !important;
+  color: #03f323;
+  text-shadow: 0 0 5px #03f323 !important;
 }
 
 .about .content ul {
@@ -346,7 +346,7 @@ section {
   color: #09c923;
   font-size: 18px;
   padding-bottom: 10px;
-  text-shadow: 0 0 5px #118d21;
+  text-shadow: 0 0 5px #09c923;
 }
 
 .about .content ul i {
@@ -424,8 +424,8 @@ section {
 }
 
 .terminal-wrapping-title {
-  color: #2CB8FC;
-  text-shadow: 0 0 20px #2CB8FC !important;
+  color: #03f323;
+  text-shadow: 0 0 5px #03f323 !important;
   font-size: 20px;
 }
 
@@ -457,36 +457,25 @@ section {
   color: #118d21;
 }
 
-.skillbars {
-  padding-left: 13%;
-}
-
-.skillbar-title span {
-  font-family: 'Ubuntu', sans-serif;
-  color: #000000;
-  text-shadow: 0 0 15px #000000;
-}
-
-.skillbar-percent {
-  font-family: 'Ubuntu', sans-serif !important;
-  color: black !important;
- 
-  font-size: 14px !important;
-  font-weight: bold;
-}
-
 .skillbar-width {
-  width: 30vw;
-  max-width: 30vw;
+  margin: auto !important;
+  width: 10vw !important;
+  max-width: 10vw !important;
+  padding-bottom: 10%;
+}
+
+.language {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
 }
 
 @media (max-width: 999px) {
-  .skillbars {
-    padding-left: 8%;
-  }
   .skillbar-width {
-    width: 85vw !important;
-    max-width: 85vw !important;
+    width: 30vw !important;
+    max-width: 30vw !important;
   }
 }
 
