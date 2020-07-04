@@ -1,5 +1,4 @@
 import React, {Component} from "react"
-import Typist from "react-typist"
 import anime from "animejs"
 
 
@@ -87,11 +86,7 @@ export default class Animation extends Component {
                 <div className="first-image-container">
                 <h1>Rithvik Mahindra</h1>
                 <h2>
-                <Typist> 
-                    Thank you for visiting!
-                    <Typist.Backspace count={32} delay={500} />
                     This site is under construction!
-                </Typist>
                 </h2>
                 </div>
                 </section>

@@ -13,10 +13,10 @@ function About() {
           <div className="terminal">
             <div className="col-lg-16 pt-8 pt-lg-0 content">
               <span className = "text-center">
-                <span>
+                <span className="code-styling-2">
                 <Typist>
                 <Typist.Delay ms = {1000} />
-                  <h3>&#123;<span className="code-styling-2">"Education"</span> : <span className="code-styling-1">"The University of Illinois at Urbana-Champaign"</span>&#125; </h3>
+                <h3>&#123;"Education": "The University of Illinois at Urbana-Champaign"&#125; </h3>
                 </Typist>
                 </span>
               </span>

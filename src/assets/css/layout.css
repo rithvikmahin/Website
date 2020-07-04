@@ -415,7 +415,17 @@ section {
     font-size: 18px;
     white-space: normal !important;
   }
+
+  .terminal-wrapping-title {
+    white-space: normal !important;
+  }
   
+}
+
+.terminal-wrapping-title {
+  color: #fcc100;
+  text-shadow: 0 0 5px #fcc100;
+  font-size: 20px;
 }
 
 @media (min-width: 864px) {
@@ -508,6 +518,7 @@ section {
   letter-spacing: -12px;
 }
 
+
 .section-work h2 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
@@ -528,5 +539,13 @@ section {
   list-style: none;
 }
 
+.github-links {
+  font-size: 28px;
+  color: #fff;
+  border-radius: 50%;
+  width: 45px;
+  padding-left: 197%;
+  height: 30px;
+}
 
 
