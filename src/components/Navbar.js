@@ -22,7 +22,7 @@ export default class Navigation extends Component {
           <header id="header">
           <div className="d-flex flex-column">
             <div className="profile">
-              <img src={picture} alt="" className="img-fluid rounded-circle" />s
+              <img src={picture} alt="" className="img-fluid rounded-circle" />
               <h1 className="text-light"><a href="index.html">Rithvik Mahindra</a></h1>
               <div className="social-links mt-3 text-center">
                 <a href="https://github.com/rithvikmahin" target="_blank" rel="noopener noreferrer" className="github"><i className="bx bxl-github" /></a> 

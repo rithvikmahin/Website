@@ -332,7 +332,8 @@ section {
   position: relative;
   font-weight: 700;
   font-size: 24px;
-  color: #09c923;
+  color: #2CB8FC;
+  text-shadow: #2CB8FC !important;
 }
 
 .about .content ul {
