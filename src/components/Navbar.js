@@ -25,8 +25,8 @@ export default class Navigation extends Component {
               <img src={picture} alt="" className="img-fluid rounded-circle" />s
               <h1 className="text-light"><a href="index.html">Rithvik Mahindra</a></h1>
               <div className="social-links mt-3 text-center">
-                <a href="https://github.com/rithvikmahin" target="_blank" className="github"><i className="bx bxl-github" /></a> 
-                <a href="https://www.linkedin.com/in/rithvik-mahindra/" target ="_blank" className="linkedin"><i className="bx bxl-linkedin" /></a>
+                <a href="https://github.com/rithvikmahin" target="_blank" rel="noopener noreferrer" className="github"><i className="bx bxl-github" /></a> 
+                <a href="https://www.linkedin.com/in/rithvik-mahindra/" target ="_blank" rel="noopener noreferrer" className="linkedin"><i className="bx bxl-linkedin" /></a>
               </div>
             </div>
             <nav className="nav-menu">

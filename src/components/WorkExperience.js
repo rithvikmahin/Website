@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Mozilla, CS125, IIMB, Visa } from "./Work-List"
+import { Mozilla, CS125, IIMB, Visa, Collagro, Cisco } from "./Work-List"
 
 export default class WorkExperience extends Component {
     render() {
@@ -20,7 +20,7 @@ export default class WorkExperience extends Component {
                                 <div className="col-lg-16 pt-8 pt-lg-0 content">
                                     <Mozilla />
                                 </div>
-                            </div>
+                            </div> 
                         </div>
 
                         <div className="col-lg-6">  
@@ -47,6 +47,26 @@ export default class WorkExperience extends Component {
                             <div className="work-terminal">
                                 <div className="col-lg-16 pt-8 pt-lg-0 content">
                                     <Visa />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className="row mb-4">
+
+                        <div className="col-lg-6">  
+                            <div className="work-terminal">
+                                <div className="col-lg-16 pt-8 pt-lg-0 content">
+                                    <Collagro />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6">  
+                            <div className="work-terminal">
+                                <div className="col-lg-16 pt-8 pt-lg-0 content">
+                                    <Cisco />
                                 </div>
                             </div>
                         </div>
