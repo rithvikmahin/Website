@@ -1,80 +1,147 @@
 import React, {Component} from "react"
-import SkillBar from "react-skillbars"
+import { CircularProgressbar, buildStyles  } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 export default class SkillList extends Component {
+
     render() {
-        const languagesLeft = [
-            {type: "Python", level: 95}, 
-            {type: "JavaScript", level: 90}, 
-            {type: "Java", level: 85},
-            {type: "Linux", level: 80},
-    ];
-
-    const languagesRight = [
-      {type: "C++", level: 85},
-      {type: "SQL", level: 85},
-      {type: "HTML/CSS", level: 80},
-      {type: "C", level: 80},
-];
-
-        const colors = {
-            "bar": {
-              "hue": 150,
-              "saturation": 50,
-              "level": {
-                "minimum": 30,
-                "maximum": 70
-              }
-            },
-            "title": {
-              "text": {
-                "hue": 45,
-                "saturation": {
-                  "minimum": 30,
-                  "maximum": 70
-                },
-                "level": 50
-              },
-              "background": {
-                "hue": 150,
-                "saturation": {
-                  "minimum": 50,
-                  "maximum": 70
-                },
-                "level": {
-                  "minimum": 30,
-                  "maximum": 70
-                }
-              }
-            }
-          }
+        const python = 95;
+        const javascript = 90;
+        const java = 85;
+        const cplusplus = 85;
+        const sql = 85;
+        const linux = 80;
+        const c = 80;
+        const html = 80;
+        const css = 80;
 
         return (  
         <div>
-          <div className="section-skills">
-            <h2 className="skills">
-              Skills
-            </h2>
-          </div>
 
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="skillbars" style={{textAlign: "center"}}>
-                <div className="skillbar-width">
-                    <SkillBar skills={languagesLeft} colors={colors}/>
-                </div>
-              </div>
+            <div className="section-skills">
+              <h2 className="skills">
+                Skills
+              </h2>
             </div>
-                    
-            <div className="col-lg-6">
-              <div className="skillbars" style={{textAlign: "center"}}>
+
+            <div className="row">
+              <div className="col-sm-4">
                 <div className="skillbar-width">
-                    <SkillBar skills={languagesRight} colors={colors}/>
+                  <h3 className="language">Python</h3>
+                  <CircularProgressbar value={python} text={`${python}%`} strokeWidth={10} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
-          </div>
-        </div>   
-      </div>
+                      
+              <div className="col-sm-4">
+                <div className="skillbar-width">
+                  <h3 className="language">JavaScript</h3>
+                  <CircularProgressbar value={javascript} text={`${javascript}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
+                </div>
+              </div>
+
+              <div className="col-sm-4">
+                <div className="skillbar-width">
+                  <h3 className="language">Java</h3>
+                  <CircularProgressbar value={java} text={`${java}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
+                </div>
+              </div>
+
+            </div>   
+
+            <div className="row">
+              <div className="col-sm-4">
+                <div className="skillbar-width">
+                  <h3 className="language">C++</h3>
+                  <CircularProgressbar value={cplusplus} text={`${cplusplus}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
+                </div>
+              </div>
+                      
+              <div className="col-sm-4">
+                <div className="skillbar-width">
+                  <h3 className="language">SQL</h3>
+                  <CircularProgressbar value={sql} text={`${sql}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
+                </div>
+              </div>
+
+              <div className="col-sm-4">
+                <div className="skillbar-width">
+                  <h3 className="language">Linux</h3>
+                  <CircularProgressbar value={linux} text={`${linux}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
+                </div>
+              </div>
+
+            </div>   
+
+            <div className="row">
+              <div className="col-sm-4">
+                <div className="skillbar-width">
+                  <h3 className="language">C</h3>
+                  <CircularProgressbar value={c} text={`${c}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
+                </div>
+              </div>
+                      
+              <div className="col-sm-4">
+                <div className="skillbar-width">
+                  <h3 className="language">CSS</h3>
+                  <CircularProgressbar value={css} text={`${css}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
+                </div>
+              </div>
+
+              <div className="col-sm-4">
+                <div className="skillbar-width">
+                  <h3 className="language">HTML</h3>
+                  <CircularProgressbar value={html} text={`${html}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
+                </div>
+              </div>
+
+            </div>   
+
+        </div>
         )
     }
 }
