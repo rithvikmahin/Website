@@ -443,8 +443,8 @@ section {
   margin-bottom: 20px;
   text-align: center;
   position: relative;
-  color: #fff;
-  text-shadow: 0 0 5px #fff;
+  color: #03f323;
+  text-shadow: 0 0 5px #03f323 !important;
 }
 
 .skills h2 {
@@ -461,7 +461,7 @@ section {
   margin: auto !important;
   width: 10vw !important;
   max-width: 10vw !important;
-  padding-bottom: 10%;
+  padding-bottom: 6%;
 }
 
 .language {

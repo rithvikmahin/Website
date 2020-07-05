@@ -30,9 +30,9 @@ export default class SkillList extends Component {
                   <h3 className="language">Python</h3>
                   <CircularProgressbar value={python} text={`${python}%`} strokeWidth={10} styles={buildStyles({
                     strokeLinecap: "butt",
-                    pathColor: `#118d21`,
-                    textColor: '#f88',
-                    trailColor: '#f88',
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
                   })}/>
                 </div>
               </div>
@@ -40,14 +40,24 @@ export default class SkillList extends Component {
               <div className="col-sm-4">
                 <div className="skillbar-width">
                   <h3 className="language">JavaScript</h3>
-                  <CircularProgressbar value={javascript} text={`${javascript}%`} />
+                  <CircularProgressbar value={javascript} text={`${javascript}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
 
               <div className="col-sm-4">
                 <div className="skillbar-width">
                   <h3 className="language">Java</h3>
-                  <CircularProgressbar value={java} text={`${java}%`} />
+                  <CircularProgressbar value={java} text={`${java}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
 
@@ -57,21 +67,36 @@ export default class SkillList extends Component {
               <div className="col-sm-4">
                 <div className="skillbar-width">
                   <h3 className="language">C++</h3>
-                  <CircularProgressbar value={cplusplus} text={`${cplusplus}%`} />
+                  <CircularProgressbar value={cplusplus} text={`${cplusplus}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
                       
               <div className="col-sm-4">
                 <div className="skillbar-width">
                   <h3 className="language">SQL</h3>
-                  <CircularProgressbar value={sql} text={`${sql}%`} />
+                  <CircularProgressbar value={sql} text={`${sql}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
 
               <div className="col-sm-4">
                 <div className="skillbar-width">
                   <h3 className="language">Linux</h3>
-                  <CircularProgressbar value={linux} text={`${linux}%`} />
+                  <CircularProgressbar value={linux} text={`${linux}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
 
@@ -81,21 +106,36 @@ export default class SkillList extends Component {
               <div className="col-sm-4">
                 <div className="skillbar-width">
                   <h3 className="language">C</h3>
-                  <CircularProgressbar value={c} text={`${c}%`} />
+                  <CircularProgressbar value={c} text={`${c}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
                       
               <div className="col-sm-4">
                 <div className="skillbar-width">
                   <h3 className="language">CSS</h3>
-                  <CircularProgressbar value={css} text={`${css}%`} />
+                  <CircularProgressbar value={css} text={`${css}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
 
               <div className="col-sm-4">
                 <div className="skillbar-width">
                   <h3 className="language">HTML</h3>
-                  <CircularProgressbar value={html} text={`${html}%`} />
+                  <CircularProgressbar value={html} text={`${html}%`} styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `#149ddd`,
+                    textColor: '#42d7f5',
+                    trailColor: '#fff',
+                  })}/>
                 </div>
               </div>
 
