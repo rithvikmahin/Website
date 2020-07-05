@@ -21,6 +21,7 @@ export default class WorkExperience extends Component {
                                     <Mozilla />
                                 </div>
                             </div> 
+                            <a href="https://github.com/Mozilla-Open-Lab-Etwas/Twitter-Source-Bot" target="_blank" rel="noopener noreferrer" className="links"><i className="bx bxl-github" /></a> 
                         </div>
 
                         <div className="col-lg-6">  
@@ -29,6 +30,7 @@ export default class WorkExperience extends Component {
                                     <CS125 />
                                 </div>
                             </div>
+                            <a href="https://github.com/acheng33/data-analysis" target="_blank" rel="noopener noreferrer" className="links"><i className="bx bxl-github" /></a> 
                         </div>
 
                     </div>
@@ -49,6 +51,7 @@ export default class WorkExperience extends Component {
                                     <Visa />
                                 </div>
                             </div>
+                            <a href="https://bangaloremirror.indiatimes.com/bangalore/others/city-students-develop-phone-based-atm/articleshow/63493145.cms" target="_blank" rel="noopener noreferrer" className="links"><i className="bx bx-link" /></a> 
                         </div>
 
                     </div>
@@ -69,6 +72,7 @@ export default class WorkExperience extends Component {
                                     <Cisco />
                                 </div>
                             </div>
+                            <a href="http://stanzabooks.herokuapp.com/#!/login" target="_blank" rel="noopener noreferrer" className="links"><i className="bx bx-link" /></a> 
                         </div>
 
                     </div>

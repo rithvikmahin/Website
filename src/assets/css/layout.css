@@ -477,6 +477,7 @@ section {
     width: 30vw !important;
     max-width: 30vw !important;
   }
+
 }
 
 .work-terminal {
@@ -529,13 +530,19 @@ section {
   list-style: none;
 }
 
-.github-links {
+.links {
   font-size: 28px;
   color: #fff;
   border-radius: 50%;
   width: 45px;
-  padding-left: 197%;
+  padding-left: 95%;
   height: 30px;
+}
+
+@media (max-width: 999px) {
+  .links {
+    padding-left: 90% !important;
+  }
 }
 
 

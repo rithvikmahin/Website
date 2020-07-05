@@ -14,7 +14,6 @@ export class Mozilla extends Component {
                   <li><strong><span className="terminal-wrapping">$ Developer in the Spring Open Lab </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ April 2020 - June 2020 | Remote </span></strong> </li>
                 </ul>
-                <a href="https://github.com/Mozilla-Open-Lab-Etwas/Twitter-Source-Bot" target="_blank" rel="noopener noreferrer" className="github-links"><i className="bx bxl-github" /></a> 
               </span>
             </div>
           </div>
@@ -34,7 +33,6 @@ export class CS125 extends Component {
                   <li><strong><span className="terminal-wrapping">$ Course Developer for the class CS 125 </span></strong> </li>
                   <li><strong><span className="terminal-wrapping">$ February 2020 - Ongoing | Champaign, USA </span></strong> </li>
                 </ul>
-                <a href="https://github.com/acheng33/data-analysis" target="_blank" rel="noopener noreferrer" className="github-links"><i className="bx bxl-github" /></a> 
               </span>
             </div>
           </div>
