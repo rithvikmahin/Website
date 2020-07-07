@@ -159,7 +159,7 @@ body {
     list-style: none;
   }
   /** Navbar links **/
-  .nav-menu a {
+  .navbar-links {
     display: flex;
     align-items: center;
     color: #dddfe9;
@@ -169,18 +169,15 @@ body {
     font-size: 16px;
   }
   /** Navbar link icons **/
-  .nav-menu a i {
+  .navbar-links i {
     font-size: 25px;
     padding-right: 12px;
-    color: #656777;
-  }
-  
-  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: #fff;
-  }
-  
-  .nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
     color: #1d95cc;
+  }
+
+  .navbar-links:hover {
+    color: #1d95cc;
+    cursor: pointer;
   }
   
   .mobile-nav-toggle {
