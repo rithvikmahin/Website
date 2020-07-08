@@ -16,8 +16,7 @@ export default class SkillList extends Component {
         const css = 80;
 
         return (  
-        <div>
-
+        <div id="Skills">
             <div className="section-skills">
               <h2 className="skills">
                 Skills

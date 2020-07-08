@@ -1,8 +1,7 @@
 import React, {Component} from "react"
 import picture from '../assets/images/profile-picture.jpeg' /**TODO: Change image */
 import $ from "jquery"
-import Scroll from "react-scroll"
-const ScrollLink = Scroll.ScrollLink;
+import { Link } from "react-scroll"
 
 export default class Navigation extends Component {
 
@@ -32,12 +31,12 @@ export default class Navigation extends Component {
             </div>
             <nav className="nav-menu">
               <ul>
-                <li className="navbar-links"><i className="bx bx-home" /> <span>Home</span></li>
-                <li className="navbar-links"><i className="bx bx-user" /> <span>About</span></li>
-                <li className="navbar-links"><i className="bx bx-code-block" /> Work Experience</li>
-                <li className="navbar-links"><i className="bx bxs-card" /> Projects</li>
-                <li className="navbar-links"><i className="bx bx-book-content" /> Skills</li>
-                <li className="navbar-links"><i className="bx bx-envelope" /> Contact Me</li>
+                <li className="navbar-links"><i className="bx bx-home" /><Link to="Home" smooth={true}>Home</Link></li>
+                <li className="navbar-links"><i className="bx bx-user" /><Link to="About" smooth={true}>About</Link></li>
+                <li className="navbar-links"><i className="bx bx-code-block" /><Link to="Work" smooth={true}>Work Experience</Link></li>
+                <li className="navbar-links"><i className="bx bxs-card" /><Link to="Projects" smooth={true}>Projects</Link></li>
+                <li className="navbar-links"><i className="bx bx-book-content" /><Link to="Skills" smooth={true}>Skills</Link></li>
+                <li className="navbar-links"><i className="bx bx-envelope" /><Link to="Contact" smooth={true}>Contact Me</Link></li>
               </ul>
             </nav>
           </div>

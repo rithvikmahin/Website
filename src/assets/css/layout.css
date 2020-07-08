@@ -172,10 +172,15 @@ body {
   .navbar-links i {
     font-size: 25px;
     padding-right: 12px;
-    color: #1d95cc;
+    color: #fff;
   }
 
   .navbar-links:hover {
+    color: #1d95cc;
+    cursor: pointer;
+  }
+
+  .navbar-links:hover > i  {
     color: #1d95cc;
     cursor: pointer;
   }
