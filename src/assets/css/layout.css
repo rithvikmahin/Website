@@ -486,9 +486,9 @@ section {
   border-radius: 3px;
   background: rgb(48, 10, 36);
   color: #fff;
-  overflow: hidden;
   position: relative;
   margin: 0 auto;
+  box-decoration-break: clone;
 }
   
 .work-terminal::before {
@@ -533,11 +533,11 @@ section {
 }
 
 .links {
-  font-size: 28px;
+  font-size: 32px;
   color: #fff;
   border-radius: 50%;
   width: 45px;
-  padding-left: 95%;
+  padding-left: 94%;
   height: 30px;
 }
 

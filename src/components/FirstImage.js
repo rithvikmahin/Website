@@ -1,8 +1,5 @@
 import React, {Component} from "react"
 import anime from "animejs"
-import { Element } from "react-scroll"
-
-
 
 export default class Animation extends Component {
 
