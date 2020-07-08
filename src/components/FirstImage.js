@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 import anime from "animejs"
+import { Element } from "react-scroll"
 
 
 
@@ -80,7 +81,7 @@ export default class Animation extends Component {
 
     render() {
         return (
-            <div>
+            <div id="Home">
                 <section id="first-image" className="d-flex flex-column justify-content-center align-items-center">
                 <div className="stagger-visualizer"></div>
                 <div className="first-image-container">

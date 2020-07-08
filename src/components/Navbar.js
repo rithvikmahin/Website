@@ -1,9 +1,9 @@
 import React, {Component} from "react"
 import picture from '../assets/images/profile-picture.jpeg' /**TODO: Change image */
 import $ from "jquery"
+import { Link } from "react-scroll"
 
 export default class Navigation extends Component {
-
 
   MobileNavbar() {
     $(document).on('click', '.mobile-nav-toggle', function(e) {
@@ -31,12 +31,12 @@ export default class Navigation extends Component {
             </div>
             <nav className="nav-menu">
               <ul>
-                <li className="active"><a href="index.html"><i className="bx bx-home" /> <span>Home</span></a></li>
-                <li><a href="#about"><i className="bx bx-user" /> <span>About</span></a></li>
-                <li><a href="#experiences"><i className="bx bx-book-content" /> Work Experience</a></li>
-                <li><a href="#projects"><i className="bx bx-book-content" /> Projects</a></li>
-                <li><a href="#skills"><i className="bx bx-book-content" /> Skills</a></li>
-                <li><a href="#contact"><i className="bx bx-envelope" /> Contact Me</a></li>
+                <li className="navbar-links"><i className="bx bx-home" /><Link to="Home" smooth={true}>Home</Link></li>
+                <li className="navbar-links"><i className="bx bx-user" /><Link to="About" smooth={true}>About</Link></li>
+                <li className="navbar-links"><i className="bx bx-code-block" /><Link to="Work" smooth={true}>Work Experience</Link></li>
+                <li className="navbar-links"><i className="bx bxs-card" /><Link to="Projects" smooth={true}>Projects</Link></li>
+                <li className="navbar-links"><i className="bx bx-book-content" /><Link to="Skills" smooth={true}>Skills</Link></li>
+                <li className="navbar-links"><i className="bx bx-envelope" /><Link to="Contact" smooth={true}>Contact Me</Link></li>
               </ul>
             </nav>
           </div>

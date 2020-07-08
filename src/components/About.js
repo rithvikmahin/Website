@@ -4,7 +4,7 @@ import AboutList from "./About-List"
 
 function About() {
     return (
-        <div>
+        <div id="About">
         <section id="about" className="about">
         <div className="container">
           <div className="section-title">

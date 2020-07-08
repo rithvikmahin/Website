@@ -4,7 +4,7 @@ import { Mozilla, CS125, IIMB, Visa, Collagro, Cisco } from "./Work-List"
 export default class WorkExperience extends Component {
     render() {
         return (
-            <div>
+            <div id="Work">
                 <div className="section-work">
                     <h2 className="work">
                         Work Experience
