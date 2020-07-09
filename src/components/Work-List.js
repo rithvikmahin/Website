@@ -30,7 +30,7 @@ export class CS125 extends Component {
                 <ul>
                   <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />CS 125 - Introduction to Computer Science </span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ Course Developer for the class CS 125 </span></strong> </li>
-                  <li><strong><span className="terminal-wrapping">$ February 2020 - Ongoing | Champaign, USA </span></strong> </li>
+                  <li><strong><span className="terminal-wrapping">$ February 2020 - June 2020 | Champaign, USA </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ Python (Matplotlib, Seaborn, PyMongo), MongoDB</span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ Analyzed and visualized metrics such as average score distributions and percentage of successful submissions </span></strong> </li>
                 </ul>
