@@ -603,10 +603,6 @@ section {
   color: #fff !important;
 }
 
-.submit-button {
-  margin: auto !important;
-}
-
 .label {
   font-family: 'Ubuntu', sans-serif !important;
   font-weight: bold;
@@ -614,6 +610,7 @@ section {
   color: #fff;
   text-shadow: 0 0 5px #fff;
 }
+
 
 
 
