@@ -572,7 +572,8 @@ section {
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-top: 4%;
+  margin-bottom: 10px;
   text-align: center;
   position: relative;
   color: #03f323;
@@ -583,7 +584,7 @@ section {
   font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   text-align: center;
   position: relative;
   color: #118d21;

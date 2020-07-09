@@ -3,7 +3,7 @@ import React, { Component } from "react"
 export default class Contact extends Component {
     render() {
         return (
-            <div>
+            <div id="Contact">
                 <div className="section-contact">
                     <h2 className="contact">
                         Contact Me
@@ -30,10 +30,8 @@ export default class Contact extends Component {
 
                         <div className="form-group">
                             <label className="label">Description</label>
-                            <input type="description" className="form-control" id="email" aria-describedby="description" />
+                            <textarea type="text" className="form-control" id="description" aria-describedby="description" />
                         </div>
-
-                        <button type="submit" className="submit-button">Submit</button>
 
                     </form>
                 </div>
