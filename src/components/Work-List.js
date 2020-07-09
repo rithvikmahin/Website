@@ -70,7 +70,7 @@ export class Visa extends Component {
                 <li><strong><span className="terminal-wrapping">$ Software Developer Intern </span></strong> </li>
                 <li><strong><span className="terminal-wrapping">$ February 2018 - July 2018 | Bangalore, India </span></strong> </li>
                 <li><strong><span className="terminal-wrapping"> $ Java (Android), JavaScript (Node.js), MySQL </span></strong> </li>
-                <li><strong><span className="terminal-wrapping"> $ Implemented a solution to withdraw cash from ATM's wirelessly with a user's phone and NFC chipsets </span></strong> </li>
+                <li><strong><span className="terminal-wrapping"> $ Implemented a solution to withdraw cash from ATM's wirelessly with NFC under the guidance of Visa</span></strong> </li>
               </ul>
           </div>
         </div>
@@ -105,7 +105,7 @@ export class Cisco extends Component {
           <div className="col-lg-12">
               <ul>
                 <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />Cisco </span></strong></Typist></li>
-                <li><strong><span className="terminal-wrapping">$ Software Development Intern </span></strong> </li>
+                <li><strong><span className="terminal-wrapping">$ Software Developer Intern </span></strong> </li>
                 <li><strong><span className="terminal-wrapping">$ July 2017 - January 2018 | Bangalore, India </span></strong> </li>
                 <li><strong><span className="terminal-wrapping"> $ JavaScript (Node.js, AngularJS), MySQL</span></strong> </li>
                 <li><strong><span className="terminal-wrapping"> $  Built a peer-to-peer book sharing platform under the supervision and mentorship of Cisco </span></strong> </li>
