@@ -27,7 +27,6 @@ ReactDOM.render(
       <WorkExperience />
       <Projects />
       <Skills />
-      <Contact />
     </div>
   </div>,
   document.getElementById('root')

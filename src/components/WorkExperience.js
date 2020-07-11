@@ -1,7 +1,17 @@
 import React, { Component } from "react"
 import { Mozilla, CS125, IIMB, Visa, Collagro, Cisco } from "./Work-List"
+import MozillaJson from "../json/experience"
 
 export default class WorkExperience extends Component {
+
+    Test() {
+        console.log(MozillaJson)
+    }
+
+    componentDidMount() {
+        this.Test();
+    }
+
     render() {
         return (
             <div id="Work">
@@ -18,7 +28,7 @@ export default class WorkExperience extends Component {
                         <div className="col-lg-6">  
                             <div className="work-terminal">
                                 <div className="col-lg-16 pt-8 pt-lg-0 content">
-                                    <Mozilla />
+                                    <Mozilla content={MozillaJson} />
                                 </div>
                             </div> 
                             <a href="https://github.com/Mozilla-Open-Lab-Etwas/Twitter-Source-Bot" target="_blank" rel="noopener noreferrer" className="links"><i className="bx bxl-github" /></a> 

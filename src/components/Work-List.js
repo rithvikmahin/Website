@@ -9,7 +9,7 @@ export class Mozilla extends Component {
 
             <div className="col-lg-12">
                 <ul>
-                  <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />Mozilla </span></strong></Typist></li>
+                  <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} /> Mozilla </span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ Developer in the Spring Open Lab </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ April 2020 - June 2020 | Remote </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ JavaScript (Node.js), Python (Spacy, TextRank), MongoDB</span></strong> </li>
@@ -29,7 +29,7 @@ export class CS125 extends Component {
             <div className="col-lg-12">
                 <ul>
                   <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />CS 125 - Introduction to Computer Science </span></strong></Typist></li>
-                  <li><strong><span className="terminal-wrapping">$ Course Developer for the class CS 125 </span></strong> </li>
+                  <li><strong><span className="terminal-wrapping">$ Course Developer / Data Analyst </span></strong> </li>
                   <li><strong><span className="terminal-wrapping">$ February 2020 - Ongoing | Champaign, USA </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ Python (Matplotlib, Seaborn, PyMongo), MongoDB</span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ Analyzed and visualized metrics such as average score distributions and percentage of successful submissions </span></strong> </li>
@@ -67,7 +67,7 @@ export class Visa extends Component {
           <div className="col-lg-12">
               <ul>
                 <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />Visa </span></strong></Typist></li>
-                <li><strong><span className="terminal-wrapping">$ Software Engineering Intern </span></strong> </li>
+                <li><strong><span className="terminal-wrapping">$ Software Developer Intern </span></strong> </li>
                 <li><strong><span className="terminal-wrapping">$ February 2018 - July 2018 | Bangalore, India </span></strong> </li>
                 <li><strong><span className="terminal-wrapping"> $ Java (Android), JavaScript (Node.js), MySQL </span></strong> </li>
                 <li><strong><span className="terminal-wrapping"> $ Implemented a solution to withdraw cash from ATM's wirelessly with a user's phone and NFC chipsets </span></strong> </li>
