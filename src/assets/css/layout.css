@@ -547,4 +547,70 @@ section {
   }
 }
 
+.section-projects h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  color: #03f323;
+  text-shadow: 0 0 5px #03f323 !important;
+}
+
+.projects h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  color: #118d21;
+}
+
+.section-contact h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  color: #03f323;
+  text-shadow: 0 0 5px #03f323 !important;
+}
+
+.contact h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+  position: relative;
+  color: #118d21;
+}
+
+.form-group {
+  width: 50%;
+  margin: auto;
+}
+
+.form-control {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: bold !important;
+  background-color: #4d4d4d !important;
+  border-color: #16da57 !important;
+  color: #fff !important;
+}
+
+.label {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+
+
+
 

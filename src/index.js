@@ -12,6 +12,8 @@ import Animation from "./components/FirstImage"
 import About from "./components/About"
 import WorkExperience from "./components/WorkExperience"
 import Skills from "./components/Skills"
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -23,6 +25,7 @@ ReactDOM.render(
       <Animation />
       <About />
       <WorkExperience />
+      <Projects />
       <Skills />
     </div>
   </div>,
