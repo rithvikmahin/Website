@@ -1,16 +1,8 @@
 import React, { Component } from "react"
 import { Mozilla, CS125, IIMB, Visa, Collagro, Cisco } from "./Work-List"
-import MozillaJson from "../json/experience"
+import { MozillaJson, CS125Json, IIMBJson, VisaJson, CollagroJson, CiscoJson } from "../json/experience"
 
 export default class WorkExperience extends Component {
-
-    Test() {
-        console.log(MozillaJson)
-    }
-
-    componentDidMount() {
-        this.Test();
-    }
 
     render() {
         return (
@@ -37,7 +29,7 @@ export default class WorkExperience extends Component {
                         <div className="col-lg-6">  
                             <div className="work-terminal">
                                 <div className="col-lg-16 pt-8 pt-lg-0 content">
-                                    <CS125 />
+                                    <CS125 content={CS125Json} />
                                 </div>
                             </div>
                             <a href="https://github.com/acheng33/data-analysis" target="_blank" rel="noopener noreferrer" className="links"><i className="bx bxl-github" /></a> 
@@ -50,7 +42,7 @@ export default class WorkExperience extends Component {
                         <div className="col-lg-6">  
                             <div className="work-terminal">
                                 <div className="col-lg-16 pt-8 pt-lg-0 content">
-                                    <IIMB />
+                                    <IIMB content={IIMBJson} />
                                 </div>
                             </div>
                         </div>
@@ -58,7 +50,7 @@ export default class WorkExperience extends Component {
                         <div className="col-lg-6">  
                             <div className="work-terminal">
                                 <div className="col-lg-16 pt-8 pt-lg-0 content">
-                                    <Visa />
+                                    <Visa content={VisaJson} />
                                 </div>
                             </div>
                             <a href="https://bangaloremirror.indiatimes.com/bangalore/others/city-students-develop-phone-based-atm/articleshow/63493145.cms" target="_blank" rel="noopener noreferrer" className="links"><i className="bx bx-link" /></a> 
@@ -71,7 +63,7 @@ export default class WorkExperience extends Component {
                         <div className="col-lg-6">  
                             <div className="work-terminal">
                                 <div className="col-lg-16 pt-8 pt-lg-0 content">
-                                    <Collagro />
+                                    <Collagro content={CollagroJson} />
                                 </div>
                             </div>
                         </div>
@@ -79,7 +71,7 @@ export default class WorkExperience extends Component {
                         <div className="col-lg-6">  
                             <div className="work-terminal">
                                 <div className="col-lg-16 pt-8 pt-lg-0 content">
-                                    <Cisco />
+                                    <Cisco content={CiscoJson} />
                                 </div>
                             </div>
                             <a href="http://stanzabooks.herokuapp.com/#!/login" target="_blank" rel="noopener noreferrer" className="links"><i className="bx bx-link" /></a> 

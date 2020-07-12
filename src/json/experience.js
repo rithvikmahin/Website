@@ -45,3 +45,13 @@ const CiscoJson = {
         tools: "JavaScript (Node.js, AngularJS), MySQL",
         description: "Built a peer-to-peer book sharing platform under the supervision and mentorship of Cisco"
     }
+
+export {
+    MozillaJson,
+    CS125Json,
+    IIMBJson,
+    VisaJson,
+    CollagroJson,
+    CiscoJson
+}
+
