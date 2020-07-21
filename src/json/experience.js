@@ -7,7 +7,7 @@ const MozillaJson = {
     }
 
 const CS125Json = {
-        id: "CS125",
+        id: "CS 125 - Introduction to Computer Science",
         title: "Course Developer / Data Analyst",
         duration_location: "February 2020 - Ongoing | Champaign, USA",
         tools: "Python (Matplotlib, Seaborn, PyMongo), MongoDB",
@@ -15,7 +15,7 @@ const CS125Json = {
     }
 
 const IIMBJson = {
-        id: "IIMB",
+        id: "Indian Institute of Management",
         title: "Data Science Intern",
         duration_location: "May 2018 - July 2018 | Bangalore, India",
         tools: "Python (Scikit-Learn, Keras, TensorFlow)",
