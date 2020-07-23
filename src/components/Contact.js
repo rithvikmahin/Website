@@ -33,7 +33,7 @@ export default class Contact extends Component {
                             <textarea type="text" className="form-control" id="description" aria-describedby="description" />
                         </div>
 
-                        <div className="col text-center">
+                        <div className="col text-center" style={{clor: 'green'}}>
                             <button type="submit" style={{marginBottom: "10px"}} className="btn btn-primary">Submit</button>
                         </div>
                         

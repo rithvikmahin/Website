@@ -611,6 +611,13 @@ section {
   text-shadow: 0 0 5px #fff;
 }
 
+.btn-primary {
+  background-color: #4d4d4d !important;
+  border-color: #4d4d4d !important;
+  color: #03f323 !important;
+  text-shadow: 0 0 5px #03f323;
+}
+
 
 
 
