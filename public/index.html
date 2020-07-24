@@ -8,8 +8,16 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
+    //Replace UA with environment variable
     gtag('config', 'UA-172033134-1');
+  </script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+        //Replace with environment variable
+        emailjs.init("user_9amlYw8yGHceLoMZFY7nf");
+    })();
   </script>
 
   <meta charset="utf-8">
