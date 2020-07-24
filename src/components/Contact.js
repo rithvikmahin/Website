@@ -18,7 +18,8 @@ export default class Contact extends Component {
     }
     
     handleSubmit(event) {
-        event.preventDefault();
+        //TODO: Add event.preventDefault back to the page, and find a solution to issue #25.
+        //event.preventDefault();
         //Replace with environment variable
         const templateId = "template_E5uJH9Gr";
         this.sendFeedback(templateId, {description: this.state.Description, subject: this.state.Subject, email: this.state.Email, name: this.state.Name});
