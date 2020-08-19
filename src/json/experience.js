@@ -9,7 +9,7 @@ const MozillaJson = {
 const CS125Json = {
         id: "CS 125 - Introduction to Computer Science",
         title: "Course Developer / Data Analyst",
-        duration_location: "February 2020 - Ongoing | Champaign, USA",
+        duration_location: "February 2020 - June 2020 | Champaign, USA",
         tools: "Python (Matplotlib, Seaborn, PyMongo), MongoDB",
         description: "Analyzed and visualized metrics such as average score distributions and percentage of successful submissions"
     }

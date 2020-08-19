@@ -9,9 +9,9 @@ export default class SkillList extends Component {
         const javascript = 90;
         const java = 85;
         const cplusplus = 85;
-        const sql = 85;
+        const mongodb = 85;
         const linux = 80;
-        const c = 80;
+        const aws = 80;
         const html = 80;
         const css = 80;
 
@@ -77,8 +77,8 @@ export default class SkillList extends Component {
                       
               <div className="col-sm-4">
                 <div className="skillbar-width">
-                  <h3 className="language">SQL</h3>
-                  <CircularProgressbar value={sql} text={`${sql}%`} styles={buildStyles({
+                  <h3 className="language">MongoDB</h3>
+                  <CircularProgressbar value={mongodb} text={`${mongodb}%`} styles={buildStyles({
                     strokeLinecap: "butt",
                     pathColor: `#149ddd`,
                     textColor: '#42d7f5',
@@ -104,8 +104,8 @@ export default class SkillList extends Component {
             <div className="row">
               <div className="col-sm-4">
                 <div className="skillbar-width">
-                  <h3 className="language">C</h3>
-                  <CircularProgressbar value={c} text={`${c}%`} styles={buildStyles({
+                  <h3 className="language">AWS</h3>
+                  <CircularProgressbar value={aws} text={`${aws}%`} styles={buildStyles({
                     strokeLinecap: "butt",
                     pathColor: `#149ddd`,
                     textColor: '#42d7f5',
