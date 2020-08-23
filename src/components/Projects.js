@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import ProjectList from "./Project-List"
 
 export default class Projects extends Component {
     render() {
@@ -8,6 +9,8 @@ export default class Projects extends Component {
                     <h2 className="projects">
                         Projects
                     </h2>
+
+                    <ProjectList />
                 </div>
             </div>
         )
