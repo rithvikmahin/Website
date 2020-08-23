@@ -14,7 +14,7 @@ function About() {
             <div className="col-lg-16 pt-8 pt-lg-0 content">
               <span className = "text-center">
                 <span className="code-styling-2">
-                <Typist>
+                <Typist avgTypingDelay={100}>
                 <Typist.Delay ms = {1000} />
                 <h3>&#123;"Education": "The University of Illinois at Urbana-Champaign"&#125; </h3>
                 </Typist>

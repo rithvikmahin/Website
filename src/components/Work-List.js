@@ -9,7 +9,7 @@ export class Mozilla extends Component {
 
             <div className="col-lg-12">
                 <ul>
-                  <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
+                  <li><Typist avgTypingDelay={175}><Typist.Delay ms = {5000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500}/>{this.props.content.id}</span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ {this.props.content.title} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.duration_location} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.tools}</span></strong> </li>
@@ -28,7 +28,7 @@ export class CS125 extends Component {
 
             <div className="col-lg-12">
               <ul>
-                  <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
+                  <li><Typist avgTypingDelay={175}><Typist.Delay ms = {5000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ {this.props.content.title} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.duration_location} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.tools}</span></strong> </li>
@@ -47,7 +47,7 @@ export class IIMB extends Component {
 
           <div className="col-lg-12">
               <ul>
-                  <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
+                  <li><Typist avgTypingDelay={175}><Typist.Delay ms = {5000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ {this.props.content.title} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.duration_location} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.tools}</span></strong> </li>
@@ -66,7 +66,7 @@ export class Visa extends Component {
 
           <div className="col-lg-12">
                 <ul>
-                  <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
+                  <li><Typist avgTypingDelay={175}><Typist.Delay ms = {5000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ {this.props.content.title} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.duration_location} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.tools}</span></strong> </li>
@@ -85,7 +85,7 @@ export class Collagro extends Component {
 
           <div className="col-lg-12">
           <ul>
-                  <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
+                  <li><Typist avgTypingDelay={175}><Typist.Delay ms = {5000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ {this.props.content.title} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.duration_location} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.tools}</span></strong> </li>
@@ -104,7 +104,7 @@ export class Cisco extends Component {
 
           <div className="col-lg-12">
           <ul>
-                  <li><Typist><Typist.Delay ms = {3000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
+                  <li><Typist avgTypingDelay={175}><Typist.Delay ms = {5000} /><strong><span className="terminal-wrapping-title">$ Loading... <Typist.Backspace count={11} delay={500} />{this.props.content.id}</span></strong></Typist></li>
                   <li><strong><span className="terminal-wrapping">$ {this.props.content.title} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.duration_location} </span></strong> </li>
                   <li><strong><span className="terminal-wrapping"> $ {this.props.content.tools}</span></strong> </li>

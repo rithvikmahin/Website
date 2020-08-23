@@ -8,7 +8,7 @@ const MozillaJson = {
 
 const CS125Json = {
         id: "CS 125 - Introduction to Computer Science",
-        title: "Course Developer / Data Analyst",
+        title: "Data Analyst",
         duration_location: "February 2020 - June 2020 | Champaign, USA",
         tools: "Python (Matplotlib, Seaborn, PyMongo), MongoDB",
         description: "Analyzed and visualized metrics such as average score distributions and percentage of successful submissions"
@@ -23,7 +23,7 @@ const IIMBJson = {
     }
 
 const VisaJson = {
-        id: "Visa",
+        id: "Visa Inc.",
         title: "Software Developer Intern",
         duration_location: "February 2018 - July 2018 | Bangalore, India",
         tools: "Java (Android), JavaScript (Node.js), MySQL",
@@ -31,7 +31,7 @@ const VisaJson = {
     }
 
 const CollagroJson = {
-        id: "Collagro",
+        id: "Collagro Ltd.",
         title: "Data Science Intern",
         duration_location: "November 2017 - January 2018 | Bangalore, India",
         tools: "Python (NLTK, Keras, Pandas), MongoDB",
@@ -39,7 +39,7 @@ const CollagroJson = {
     }
 
 const CiscoJson = {
-        id: "Cisco",
+        id: "Cisco Systems, Inc.",
         title: "Software Development Intern",
         duration_location: "July 2017 - January 2018 | Bangalore, India",
         tools: "JavaScript (Node.js, AngularJS), MySQL",
