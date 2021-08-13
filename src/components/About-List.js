@@ -17,7 +17,7 @@ function AboutList() {
                   <ul>
                     <span className = "text-right">
                       <li><Typist avgTypingDelay={125}><Typist.Delay ms = {1500} /><strong>&#123;<span className="code-styling-2">"Major"</span> : <span className = "code-styling-1">"Computer Science &amp; Statistics"</span>&#125; $ </strong></Typist></li>
-                      <li><Typist avgTypingDelay={125}><Typist.Delay ms = {1500} /><strong>&#123;<span className="code-styling-2">"Graduation Date"</span> : <span className = "code-styling-1">"December 2022"</span>&#125;</strong> $  </Typist></li>
+                      <li><Typist avgTypingDelay={125}><Typist.Delay ms = {1500} /><strong>&#123;<span className="code-styling-2">"Graduation Date"</span> : <span className = "code-styling-1">"December 2022"</span>&#125; $ </strong>   </Typist></li>
                     </span>
                   </ul>
                 </div>
