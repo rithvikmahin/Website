@@ -9,7 +9,6 @@ export default class Projects extends Component {
                     <h2 className="projects">
                         Projects
                     </h2>
-
                     <ProjectList />
                 </div>
             </div>

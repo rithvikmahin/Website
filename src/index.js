@@ -8,7 +8,7 @@ import './assets/css/icofont/icofont.min.css'
 import './assets/css/boxicons/css/boxicons.min.css'
 
 import Navigation from "./components/Navbar"
-import Animation from "./components/FirstImage"
+import Home from "./components/Home"
 import About from "./components/About"
 import WorkExperience from "./components/WorkExperience"
 import Skills from "./components/Skills"
@@ -22,11 +22,10 @@ ReactDOM.render(
       <Navigation />
     </div>
     <div>
-      <Animation />
+      <Home />
       <About />
       <WorkExperience />
-      <Skills />
-      <Contact />
+      <Projects />
     </div>
   </div>,
   document.getElementById('root')

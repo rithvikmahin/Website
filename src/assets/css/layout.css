@@ -367,6 +367,8 @@ section {
   text-shadow: 0 0 5px #118d21;
 }
 
+
+
 .terminal {
   border-radius: 3px;
   background: #222;
@@ -429,6 +431,26 @@ section {
   color: #03f323;
   text-shadow: 0 0 5px #03f323 !important;
   font-size: 20px;
+}
+
+.javascript {
+  color: #FF9933;
+  text-shadow: 0 0 5px #FF9933 !important;
+}
+
+.java {
+  color: #FA3200;
+  text-shadow: 0 0 5px #FA3200 !important;
+}
+
+.typescript {
+  color: #0080FF;
+  text-shadow: 0 0 5px #0080FF !important;
+}
+
+.python {
+  color: #00CC66;
+  text-shadow: 0 0 5px #00CC66 !important;
 }
 
 @media (min-width: 864px) {

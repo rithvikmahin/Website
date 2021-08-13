@@ -4,9 +4,11 @@ export default class ProjectList extends Component {
 
     render() {
         return (
-            <div>
-                <div className='row'>
-                    <h1>Test</h1>
+            <div className="container">
+                <div className="row mb-4">
+                    <div className="col-lg-6">
+                        <iframe src="https://uiuc-course-visualizer.herokuapp.com/" width="1125" height="500" frameBorder="0"></iframe>
+                    </div>
                 </div>
             </div>
         );

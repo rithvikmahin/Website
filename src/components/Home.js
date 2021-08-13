@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 import anime from "animejs"
 
-export default class Animation extends Component {
+export default class Home extends Component {
 
     Animation() {
         const staggerVisualizerEl = document.querySelector('.stagger-visualizer');

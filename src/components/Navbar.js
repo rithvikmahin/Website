@@ -35,8 +35,6 @@ export default class Navigation extends Component {
                 <li className="navbar-links"><i className="bx bx-user" /><Link to="About" smooth={true}>About</Link></li>
                 <li className="navbar-links"><i className="bx bx-code-block" /><Link to="Work" smooth={true}>Work Experience</Link></li>
                 <li className="navbar-links"><i className="bx bxs-card" /><Link to="Projects" smooth={true}>Projects</Link></li>
-                <li className="navbar-links"><i className="bx bx-book-content" /><Link to="Skills" smooth={true}>Skills</Link></li>
-                <li className="navbar-links"><i className="bx bx-envelope" /><Link to="Contact" smooth={true}>Contact Me</Link></li>
               </ul>
             </nav>
           </div>
